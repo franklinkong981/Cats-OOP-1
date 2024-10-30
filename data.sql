@@ -23,13 +23,13 @@ SET client_min_messages
 SET row_security
 = off;
 
-DROP DATABASE pets_db;
+/*DROP DATABASE pets_db;
 --
 -- Name: pets_db; Type: DATABASE; Schema: -; Owner: -
 --
 
 CREATE DATABASE pets_db WITH TEMPLATE = template0
-ENCODING = 'UTF8' LC_COLLATE = 'en_US.UTF-8' LC_CTYPE = 'en_US.UTF-8';
+ENCODING = 'UTF8' LC_COLLATE = 'en_US.UTF-8' LC_CTYPE = 'en_US.UTF-8';*/
 
 
 \connect pets_db
